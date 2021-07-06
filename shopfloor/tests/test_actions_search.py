@@ -29,14 +29,6 @@ class TestSearchCase(TestSearchBaseCase):
         self.assertEqual(handler(False), rec.browse())
         self.assertEqual(handler("NONE"), rec.browse())
 
-    def test_search_picking(self):
-        ptype = self.env.ref("shopfloor.picking_type_single_pallet_transfer_demo")
-        rec = self._create_picking(picking_type=ptype)
-        handler = self.search.picking_from_scan
-        self.assertEqual(handler(rec.name), rec)
-        self.assertEqual(handler(False), rec.browse())
-        self.assertEqual(handler("NONE"), rec.browse())
-
     def test_search_product(self):
         rec = self.product_a
         handler = self.search.product_from_scan

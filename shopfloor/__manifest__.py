@@ -6,7 +6,7 @@
 {
     "name": "Shopfloor",
     "summary": "manage warehouse operations with barcode scanners",
-    "version": "13.0.4.10.1",
+    "version": "13.0.5.0.0",
     "development_status": "Alpha",
     "category": "Inventory",
     "website": "https://github.com/OCA/wms",
@@ -14,45 +14,11 @@
     "maintainers": ["guewen", "simahawk", "sebalix"],
     "license": "AGPL-3",
     "application": True,
-    "depends": [
-        "shopfloor_base",
-        "stock",
-        "stock_picking_batch",
-        "base_jsonify",
-        "base_rest",
-        "base_sparse_field",
-        "auth_api_key",
-        #  OCA / stock-logistics-warehouse
-        "stock_helper",
-        "stock_picking_completion_info",
-        "stock_quant_package_product_packaging",
-        #  OCA / stock-logistics-workflow
-        "stock_quant_package_dimension",
-        # TODO: used for manuf info on prod detail.
-        # This must be an optional dep
-        "product_manufacturer",
-        # TODO: used for prod lot expire detail info.
-        # This must be an optional dep
-        "product_expiry",
-        # TODO: used for package.package_storage_type_id detail info.
-        # This must be an optional dep
-        "stock_storage_type",
-        # TODO: used for picking.carrier_id detail info
-        # and to validate packaging/carrier in checkout scenario
-        # This must be an optional dep
-        "delivery",
-        #  OCA / product-attribute
-        "product_packaging_type",
-        #  OCA / delivery
-        "stock_picking_delivery_link",
-    ],
+    "depends": ["shopfloor_base", "stock", "base_rest", "auth_api_key"],
     "data": [
-        "data/shopfloor_scenario_data.xml",
         "security/groups.xml",
         "views/shopfloor_menu.xml",
         "views/stock_picking_type.xml",
         "views/stock_location.xml",
-        "views/stock_move_line.xml",
     ],
-    "demo": ["demo/stock_picking_type_demo.xml", "demo/shopfloor_menu_demo.xml"],
 }

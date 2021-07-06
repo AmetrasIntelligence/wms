@@ -37,11 +37,9 @@ class StockLocation(models.Model):
 
     def planned_qty_in_location_is_empty(self, move_lines=None):
         """Return if a location will be empty when move lines will be confirmed
-
         Used for the "zero check". We need to know if a location is empty, but since
         we set the move lines to "done" only at the end of the unload workflow, we
         have to look at the qty_done of the move lines from this location.
-
         With `move_lines` we can force the use of the given move lines for the check.
         This allows to know that the location will be empty if we process only
         these move lines.
