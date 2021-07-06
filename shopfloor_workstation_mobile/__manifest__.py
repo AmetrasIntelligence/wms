@@ -5,12 +5,12 @@
 {
     "name": "Shopfloor Workstation Mobile",
     "summary": "Shopfloor mobile app integration for workstation",
-    "version": "13.0.1.0.0",
+    "version": "13.0.2.0.0",
     "development_status": "Alpha",
     "category": "Inventory",
     "website": "https://github.com/OCA/wms",
     "author": "Camptocamp, Odoo Community Association (OCA)",
     "license": "AGPL-3",
     "depends": ["shopfloor_mobile_base", "shopfloor_workstation"],
-    "data": ["templates/assets.xml"],
+    # "data": ["templates/assets.xml"],
 }
