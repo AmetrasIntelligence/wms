@@ -6,3 +6,6 @@ stock-logistics-workflow
 web
 rest-framework
 server-auth
+delivery-carrier
+report-print-send
+server-env
