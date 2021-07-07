@@ -2,7 +2,12 @@
 <odoo>
 
 
-    <menuitem id="menu_shopfloor_root" name="Shopfloor" sequence="300" />
+    <menuitem
+        id="menu_shopfloor_root"
+        name="Shopfloor"
+        web_icon="shopfloor_base,static/description/icon.png"
+        sequence="300"
+    />
     <!-- TODO: create a good icon + favicons -->
         <!-- web_icon="shopfloor_base,static/description/icon.png" -->
     <menuitem
