@@ -14,6 +14,7 @@ import {process_registry} from "./services/process_registry.js";
 import {page_registry} from "./services/page_registry.js";
 import {color_registry} from "./services/color_registry.js";
 import {Odoo, OdooMocked} from "./services/odoo.js";
+import event_hub from "./services/event_hub.js";
 import VueSuperMethod from "./lib/vue-super-call.js";
 
 Vue.prototype.$super = VueSuperMethod;
@@ -27,8 +28,6 @@ Vue.use(Vue2Storage, {
 });
 
 Vue.use(Vuetify);
-
-var EventHub = new Vue();
 
 Vue.mixin(GlobalMixin);
 
@@ -49,6 +48,7 @@ config_registry.add("apikey", {default: "", reset_on_clear: true});
 config_registry.add("profile", {default: {}, reset_on_clear: true});
 config_registry.add("appmenu", {default: [], reset_on_clear: true});
 config_registry.add("authenticated", {default: false, reset_on_clear: true});
+config_registry.add("current_language", {default: "", reset_on_clear: false});
 
 const app = new Vue({
     i18n,
@@ -64,7 +64,6 @@ const app = new Vue({
             demo_mode: false,
             global_state_key: "",
             // collect global events
-            event_hub: EventHub,
             loading: false,
             appconfig: null,
         };
@@ -85,14 +84,27 @@ const app = new Vue({
             self.loading = false;
         });
     },
-    mounted: function() {
+    beforeMount: function () {
+        const lang_id = this.current_language;
+        if (lang_id) {
+            // If a specific language is stored as app language,
+            // use it as locale instead of the default one
+            this.switch_language(lang_id);
+        }
+        event_hub.$on("language:selected", (lang_id) => {
+            // When the user updates the language in the app,
+            // store it so that it is used in the future
+            this.switch_language(lang_id);
+        });
+    },
+    mounted: function () {
         const self = this;
         // components can trigger `state:change` on the root
         // and the current state gets stored into `global_state_key`
         this.$root.$on("state:change", function(key) {
             self.global_state_key = key;
         });
-        this.$root.event_hub.$on("profile:selected", function(profile) {
+        event_hub.$on("profile:selected", function(profile) {
             self.profile = profile;
             self.loadMenu(true);
         });
@@ -215,6 +227,11 @@ const app = new Vue({
         getNav: function() {
             return _.result(this, "appmenu.menus", []);
         },
+        switch_language: function (lang_id) {
+            this.$i18n.locale = lang_id;
+            this.$set(this, "current_language", lang_id);
+            event_hub.$emit("language:updated", lang_id);
+        },
         /*
         Trigger and event on the event hub.
         If a state is available, prefix event name w/ it.
@@ -226,7 +243,7 @@ const app = new Vue({
             if (this.global_state_key && !no_state) {
                 event_name = this.global_state_key + ":" + event_name;
             }
-            this.event_hub.$emit(event_name, data);
+            event_hub.$emit(event_name, data);
         },
     },
 }).$mount("#app");
