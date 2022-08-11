@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.wms] 13.0/stock_move_source_relocate/i18n/stock_move_source_relocate.pot\n"
 "X-Crowdin-File-ID: 7030\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:09\n"
+"PO-Revision-Date: 2022-08-11 09:44\n"
 
 #. module: stock_move_source_relocate
 #: code:addons/stock_move_source_relocate/models/stock_source_relocate.py:0
@@ -41,7 +41,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_move_source_relocate.view_stock_source_relocate_form
 #: model_terms:ir.ui.view,arch_db:stock_move_source_relocate.view_stock_source_relocate_search
 msgid "Archived"
-msgstr ""
+msgstr "Archiviert"
 
 #. module: stock_move_source_relocate
 #: model:ir.model.fields,field_description:stock_move_source_relocate.field_stock_source_relocate__company_id
