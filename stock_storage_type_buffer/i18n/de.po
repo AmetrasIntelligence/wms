@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.wms] 13.0/stock_storage_type_buffer/i18n/stock_storage_type_buffer.pot\n"
 "X-Crowdin-File-ID: 7048\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-11 09:44\n"
+"PO-Revision-Date: 2022-08-11 16:00\n"
 
 #. module: stock_storage_type_buffer
 #: model_terms:ir.ui.view,arch_db:stock_storage_type_buffer.storage_buffer_help_message_other_locations
@@ -91,7 +91,7 @@ msgstr "ID"
 #. module: stock_storage_type_buffer
 #: model:ir.model,name:stock_storage_type_buffer.model_stock_location
 msgid "Inventory Locations"
-msgstr ""
+msgstr "Lagerstandorte"
 
 #. module: stock_storage_type_buffer
 #: model:ir.model.fields,field_description:stock_storage_type_buffer.field_stock_location__is_in_storage_buffer
