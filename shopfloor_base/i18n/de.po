@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.wms] 13.0/shopfloor_base/i18n/shopfloor_base.pot\n"
 "X-Crowdin-File-ID: 6998\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:09\n"
+"PO-Revision-Date: 2022-08-11 09:44\n"
 
 #. module: shopfloor_base
 #: code:addons/shopfloor_base/services/forms/form_mixin.py:0
@@ -34,7 +34,7 @@ msgstr "Aktiv"
 #: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_profile_form_view
 #: model_terms:ir.ui.view,arch_db:shopfloor_base.shopfloor_profile_search_view
 msgid "Archived"
-msgstr ""
+msgstr "Archiviert"
 
 #. module: shopfloor_base
 #: model:ir.model.fields,help:shopfloor_base.field_shopfloor_scenario__options_edit
