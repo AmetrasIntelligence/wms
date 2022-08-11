@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.wms] 13.0/stock_reception_screen/i18n/stock_reception_screen.pot\n"
 "X-Crowdin-File-ID: 7038\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-08 22:49\n"
+"PO-Revision-Date: 2022-08-11 14:49\n"
 
 #. module: stock_reception_screen
 #: model:ir.model.fields,help:stock_reception_screen.field_stock_reception_screen__picking_state
@@ -427,7 +427,7 @@ msgstr ""
 #. module: stock_reception_screen
 #: model:ir.model.fields,field_description:stock_reception_screen.field_stock_reception_screen__picking_origin
 msgid "Source Document"
-msgstr ""
+msgstr "Quelldokument"
 
 #. module: stock_reception_screen
 #: model:ir.model.fields,field_description:stock_reception_screen.field_stock_reception_screen__picking_state
