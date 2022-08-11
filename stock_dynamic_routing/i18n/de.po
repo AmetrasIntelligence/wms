@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.wms] 13.0/stock_dynamic_routing/i18n/stock_dynamic_routing.pot\n"
 "X-Crowdin-File-ID: 7024\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:09\n"
+"PO-Revision-Date: 2022-08-11 09:44\n"
 
 #. module: stock_dynamic_routing
 #: code:addons/stock_dynamic_routing/models/stock_routing.py:0
@@ -52,7 +52,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_dynamic_routing.view_stock_routing_form
 #: model_terms:ir.ui.view,arch_db:stock_dynamic_routing.view_stock_routing_search
 msgid "Archived"
-msgstr ""
+msgstr "Archiviert"
 
 #. module: stock_dynamic_routing
 #: model:ir.model.fields,field_description:stock_dynamic_routing.field_stock_picking__canceled_by_routing
