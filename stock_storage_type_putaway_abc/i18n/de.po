@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.wms] 13.0/stock_storage_type_putaway_abc/i18n/stock_storage_type_putaway_abc.pot\n"
 "X-Crowdin-File-ID: 7050\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:10\n"
+"PO-Revision-Date: 2022-08-11 16:00\n"
 
 #. module: stock_storage_type_putaway_abc
 #: model_terms:ir.ui.view,arch_db:stock_storage_type_putaway_abc.product_template_form_view_inherit
@@ -41,7 +41,7 @@ msgstr ""
 #. module: stock_storage_type_putaway_abc
 #: model:ir.model,name:stock_storage_type_putaway_abc.model_stock_location
 msgid "Inventory Locations"
-msgstr ""
+msgstr "Lagerstandorte"
 
 #. module: stock_storage_type_putaway_abc
 #: model:ir.model.fields,field_description:stock_storage_type_putaway_abc.field_stock_location__pack_putaway_strategy
