@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.wms] 13.0/shopfloor_base/i18n/shopfloor_base.pot\n"
 "X-Crowdin-File-ID: 6998\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-11 09:44\n"
+"PO-Revision-Date: 2022-08-12 08:26\n"
 
 #. module: shopfloor_base
 #: code:addons/shopfloor_base/services/forms/form_mixin.py:0
@@ -123,7 +123,7 @@ msgstr ""
 #. module: shopfloor_base
 #: model:ir.model,name:shopfloor_base.model_shopfloor_menu
 msgid "Menu displayed in the scanner application"
-msgstr ""
+msgstr "Menü, das in der Scanner-Anwendung angezeigt wird"
 
 #. module: shopfloor_base
 #: model:ir.actions.act_window,name:shopfloor_base.action_shopfloor_menu
@@ -221,7 +221,7 @@ msgstr ""
 #. module: shopfloor_base
 #: model:ir.model,name:shopfloor_base.model_shopfloor_profile
 msgid "Shopfloor profile settings"
-msgstr ""
+msgstr "Shopfloor Profileinstellungen"
 
 #. module: shopfloor_base
 #: model:shopfloor.menu,name:shopfloor_base.shopfloor_menu_demo_1
