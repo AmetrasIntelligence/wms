@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.wms] 13.0/shopfloor_batch_automatic_creation/i18n/shopfloor_batch_automatic_creation.pot\n"
 "X-Crowdin-File-ID: 7000\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:09\n"
+"PO-Revision-Date: 2022-08-12 08:26\n"
 
 #. module: shopfloor_batch_automatic_creation
 #: model:ir.model.fields,field_description:shopfloor_batch_automatic_creation.field_shopfloor_menu__batch_create
@@ -69,5 +69,5 @@ msgstr ""
 #. module: shopfloor_batch_automatic_creation
 #: model:ir.model,name:shopfloor_batch_automatic_creation.model_shopfloor_menu
 msgid "Menu displayed in the scanner application"
-msgstr ""
+msgstr "Menü, das in der Scanner-Anwendung angezeigt wird"
 
