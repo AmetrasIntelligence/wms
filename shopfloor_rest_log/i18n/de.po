@@ -14,11 +14,11 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.wms] 13.0/shopfloor_rest_log/i18n/shopfloor_rest_log.pot\n"
 "X-Crowdin-File-ID: 7012\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:09\n"
+"PO-Revision-Date: 2022-08-16 15:14\n"
 
 #. module: shopfloor_rest_log
 #: model:ir.actions.act_window,name:shopfloor_rest_log.action_shopfloor_log
 #: model:ir.ui.menu,name:shopfloor_rest_log.menu_action_shopfloor_log
 msgid "Logs"
-msgstr ""
+msgstr "Logs"
 
