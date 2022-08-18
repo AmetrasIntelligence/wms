@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.wms] 13.0/stock_available_to_promise_release/i18n/stock_available_to_promise_release.pot\n"
 "X-Crowdin-File-ID: 7018\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:09\n"
+"PO-Revision-Date: 2022-08-18 13:33\n"
 
 #. module: stock_available_to_promise_release
 #: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_picking__release_ready_count
@@ -349,7 +349,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_move__zip_code
 #: model:ir.model.fields,field_description:stock_available_to_promise_release.field_stock_picking__zip_code
 msgid "Zip"
-msgstr ""
+msgstr "PLZ"
 
 #. module: stock_available_to_promise_release
 #: model_terms:ir.ui.view,arch_db:stock_available_to_promise_release.res_config_settings_view_form_stock
