@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.wms] 13.0/shopfloor/i18n/shopfloor.pot\n"
 "X-Crowdin-File-ID: 6996\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-12 08:26\n"
+"PO-Revision-Date: 2022-08-18 11:13\n"
 
 #. module: shopfloor
 #: model:ir.model.fields,help:shopfloor.field_shopfloor_menu__pick_pack_same_time
@@ -817,7 +817,7 @@ msgstr ""
 #. module: shopfloor
 #: model:ir.model.fields,field_description:shopfloor.field_stock_move_line__shopfloor_user_id
 msgid "Shopfloor User"
-msgstr ""
+msgstr "Shopfloor Benutzer"
 
 #. module: shopfloor
 #: model:ir.model.fields,field_description:shopfloor.field_stock_quant_package__shopfloor_weight
