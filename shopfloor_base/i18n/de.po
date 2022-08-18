@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.wms] 13.0/shopfloor_base/i18n/shopfloor_base.pot\n"
 "X-Crowdin-File-ID: 6998\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-12 08:26\n"
+"PO-Revision-Date: 2022-08-18 11:13\n"
 
 #. module: shopfloor_base
 #: code:addons/shopfloor_base/services/forms/form_mixin.py:0
@@ -216,7 +216,7 @@ msgstr ""
 #. module: shopfloor_base
 #: model:res.groups,name:shopfloor_base.group_shopfloor_user
 msgid "Shopfloor User"
-msgstr ""
+msgstr "Shopfloor Benutzer"
 
 #. module: shopfloor_base
 #: model:ir.model,name:shopfloor_base.model_shopfloor_profile
