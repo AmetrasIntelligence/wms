@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.wms] 13.0/sale_stock_available_to_promise_release/i18n/sale_stock_available_to_promise_release.pot\n"
 "X-Crowdin-File-ID: 6994\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 22:09\n"
+"PO-Revision-Date: 2022-08-18 15:37\n"
 
 #. module: sale_stock_available_to_promise_release
 #: model:ir.model.fields,field_description:sale_stock_available_to_promise_release.field_stock_move__carrier_id
@@ -84,5 +84,5 @@ msgstr ""
 #. module: sale_stock_available_to_promise_release
 #: model_terms:ir.ui.view,arch_db:sale_stock_available_to_promise_release.view_move_release_tree
 msgid "Weight"
-msgstr ""
+msgstr "Gewicht"
 
