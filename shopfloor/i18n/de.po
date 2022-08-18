@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.wms] 13.0/shopfloor/i18n/shopfloor.pot\n"
 "X-Crowdin-File-ID: 6996\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-18 11:13\n"
+"PO-Revision-Date: 2022-08-18 12:11\n"
 
 #. module: shopfloor
 #: model:ir.model.fields,help:shopfloor.field_shopfloor_menu__pick_pack_same_time
@@ -687,7 +687,7 @@ msgstr ""
 #: code:addons/shopfloor/services/checkout.py:0
 #, python-format
 msgid "Remaining raw product not packed, proceed anyway?"
-msgstr ""
+msgstr "Verbleibendes Produkt nicht verpackt, trotzdem fortfahren?"
 
 #. module: shopfloor
 #: model:ir.model.fields,field_description:shopfloor.field_stock_location__reserved_move_line_ids
@@ -1076,7 +1076,7 @@ msgstr ""
 #: code:addons/shopfloor/actions/message.py:0
 #, python-format
 msgid "Transfer {} is not available."
-msgstr ""
+msgstr "Transfer {} ist nicht verfügbar."
 
 #. module: shopfloor
 #: code:addons/shopfloor/actions/message.py:0
