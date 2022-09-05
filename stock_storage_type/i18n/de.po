@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.wms] 13.0/stock_storage_type/i18n/stock_storage_type.pot\n"
 "X-Crowdin-File-ID: 7046\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-11 16:00\n"
+"PO-Revision-Date: 2022-09-05 08:18\n"
 
 #. module: stock_storage_type
 #: code:addons/stock_storage_type/models/stock_storage_location_sequence.py:0
@@ -475,12 +475,12 @@ msgstr ""
 #. module: stock_storage_type
 #: model_terms:ir.ui.view,arch_db:stock_storage_type.package_storage_location_tree_view
 msgid "Storage locations"
-msgstr ""
+msgstr "Lagerorte"
 
 #. module: stock_storage_type
 #: model:ir.model.fields,field_description:stock_storage_type.field_stock_location__storage_location_sequence_ids
 msgid "Storage locations sequences"
-msgstr ""
+msgstr "Sequenz der Lagerorte"
 
 #. module: stock_storage_type
 #: code:addons/stock_storage_type/models/stock_quant_package.py:0
