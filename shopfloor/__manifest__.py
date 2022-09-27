@@ -6,7 +6,7 @@
 {
     "name": "Shopfloor",
     "summary": "manage warehouse operations with barcode scanners",
-    "version": "13.0.5.0.0",
+    "version": "13.0.5.1.0",
     "development_status": "Alpha",
     "category": "Inventory",
     "website": "https://github.com/OCA/wms",
@@ -14,7 +14,7 @@
     "maintainers": ["guewen", "simahawk", "sebalix"],
     "license": "AGPL-3",
     "application": True,
-    "depends": ["shopfloor_base", "stock", "base_rest", "auth_api_key"],
+    "depends": ["shopfloor_base", "stock", "base_rest", "auth_api_key", "stock_picking_batch"],
     "data": [
         "security/groups.xml",
         "views/shopfloor_menu.xml",
