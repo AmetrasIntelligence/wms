@@ -1,3 +1,5 @@
+# Copyright 2020 Camptocamp SA (http://www.camptocamp.com)
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 from odoo import api, fields, models
 
 
@@ -35,6 +37,5 @@ class StockPickingBatch(models.Model):
                 }
             )
 
-    @staticmethod
     def _calc_weight(self, pickings):
         return sum(pickings.mapped("total_weight"))
