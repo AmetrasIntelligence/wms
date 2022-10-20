@@ -3,6 +3,7 @@
 product-attribute
 server-tools
 stock-logistics-workflow
+stock-logistics-warehouse
 web
 rest-framework
 server-auth
